@@ -1,0 +1,21 @@
+.question {
+  display: flex;
+  background: #353636;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.question > div {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 460px) {
+  .question {
+    flex-direction: column;
+  }
+
+  .question img {
+    margin: 0 auto;
+  }
+}
