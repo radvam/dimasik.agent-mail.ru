@@ -1,0 +1,47 @@
+.variants {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  max-width: 49%;
+  background: #353636;
+  height: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.variant {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+}
+
+.variant > span {
+  color: white;
+}
+
+.variant:hover {
+  background: #23796a;
+}
+
+.grey {
+  background: grey;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0px 12px 0 25px;
+}
+
+.green {
+  background: #20af8b;
+}
+
+.red {
+  background: rgb(211, 73, 49);
+}
+
+@media (max-width: 750px) {
+  .variants {
+    max-width: initial;
+  }
+}

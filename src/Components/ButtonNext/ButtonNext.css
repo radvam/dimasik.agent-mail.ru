@@ -1,0 +1,22 @@
+.button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  height: 40px;
+  color: white;
+  font-size: larger;
+}
+
+.button-active {
+  background: #20af8b;
+  font-weight: bold;
+}
+
+.button-passive {
+  background-color: #353636;
+}

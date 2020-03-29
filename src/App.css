@@ -1,0 +1,76 @@
+.species_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.species-active {
+  background-color: aqua;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.visible {
+  display: block;
+  visibility: visible;
+}
+
+.choose_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media (max-width: 750px) {
+  .choose_wrapper {
+    flex-direction: column;
+  }
+}
+
+.end_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background: #353636;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.end_wrapper-hidden {
+  display: none;
+}
+
+.end_image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.end_image-hidden {
+  display: none;
+}
+
+.App {
+  position: relative;
+}
+
+.score-end {
+  color: rgb(211, 73, 49);
+  font-family: "HangingLetters";
+  font-size: 52px;
+  font-weight: normal;
+  letter-spacing: 0.07em;
+  line-height: 0.3em;
+  text-decoration: none;
+}
+
+.score-end-number {
+  color: rgb(208, 212, 212);
+}
