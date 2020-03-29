@@ -1,7 +1,7 @@
-import React from "react";
-import "./Header.css";
-import Logo from "../Logo/Logo";
-import Score from "../Score/Score";
+import React from 'react'
+import './Header.css'
+import Logo from '../Logo/Logo'
+import Score from '../Score/Score'
 
 export default function Header(props) {
   return (
@@ -9,5 +9,5 @@ export default function Header(props) {
       <Logo />
       <Score score={props.score} />
     </header>
-  );
+  )
 }

@@ -11,6 +11,7 @@ class Player extends React.Component {
 
   render() {
     return (
+      // <audio controls src={props.src}></audio>
       <AudioPlayer
         ref={c => {
           this.player = c;
@@ -18,6 +19,7 @@ class Player extends React.Component {
         toplay={this.handlePlayer()}
         autoPlayAfterSrcChange={false}
         src={this.props.src}
+        // other props here
       />
     );
   }
